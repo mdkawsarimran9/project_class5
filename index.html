@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice_class_with_form_table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imran's World</h1>
+    <h2>Personal data!</h2>
+    <div class="container">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Student's info</legend>
+                <label for="firstname">First Name:</label><input type="text" id="firstname" name="first_name" placeholder="Type your first name" class="firstname" required="required"><br><br>
+                <label for="lastname">Last Name:</label><input type="text" id="lastname" name="last_name" placeholder="Type your last name" class="lastname" required="required"><br><br>
+                <label for="email">Enter your email:</label><input type="email" id="email" class="email" placeholder="User email" required="required"><br><br>
+                <label for="pass">Password:</label><input type="password" id="pass" class="pass" placeholder="********" required="required"><br><br>
+                <label for="phonenumber">Phone:</label><select name="code" id="phone" class="phn"><option value="+880">+880</option><option value="+999">+999</option><option value="+666">+666</option><option value="+111">+111</option><option value="+777">+777</option></select><input type="number" id="phonenumber" class="phone" placeholder="123456789"><br><br>
+                <label for="con">Select country:</label><input list="country" class="country" id="con"><datalist id="country"><option value="Bangladesh">Bangladesh</option><option value="India"></option><option value="Pakistan"></option><option value="Canada"></option><option value="United Kingdom"></option><option value="USA"></option><option value="Germany"></option><option value="Australia"></option><option value="Thailand"></option><option value="Turkey"></option><option value="France"></option></datalist><br><br>
+                <p>Gender:</p><label for="gen">Male</label><input type="radio" id="gen" name="gender" class="gender"><label for="gen1">Female</label><input type="radio" id="gen1" name="gender" class="gender"><label for="gen2">Others</label><input type="radio" id="gen2" name="gender" class="gender"><br><br>
+                <p>Relagion:</p><label for="islam">Islam</label><input type="radio" id="islam" name="relagion" class="relagion"><label for="other">Others</label><input type="radio" name="relagion" id="other" class="relagion"><br><br>
+                <label for="dfb">Date of birth:</label><input type="date" id="dfb" class="date"><br><br>
+                <label for="color">Favourite color:</label><input type="color" id="color" class="color"><br><br>
+                <label for="file">Choose a photo:</label><input type="file" id="file" class="file"><br><br>
+                <p>Educational Qualification:</p><label for="study">Student</label><input type="checkbox" id="study" class="check"><label for="study1">Graduated</label><input type="checkbox" id="study1" class="check"><br><br>
+                <label for="vol">Volume:</label><input type="range" id="vol" min="0" max="100" class="vol"><br><br>
+                <p>Write your valuable comment:</p><textarea name="comment" id="something" rows="10" cols="30"></textarea><br><br>
+                <button type="reset" class="button1">Reset</button><button type="submit" class="button2">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="table">
+        <table>
+            <caption>The summary of Bangladesh cricket team</caption>
+            <tr>
+                <th>Name</th>
+                <th>Wickets</th>
+                <th>Run</th>
+                <th>Economy</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>1.Tamim Iqbal</td>
+                <td class="wi">0</td>
+                <td class="run">1021</td>
+                <td class="eco">80%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>2.Sakib Al Hassan</td>
+                <td class="wi">39</td>
+                <td class="run">980</td>
+                <td class="eco">87%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>3.Liton Das</td>
+                <td class="wi">0</td>
+                <td class="run">660</td>
+                <td class="eco">40%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>4.Shamoya Sarker</td>
+                <td class="wi">3</td>
+                <td class="run">761</td>
+                <td class="eco">50%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>5.Mahmudulla Riyad</td>
+                <td class="wi">21</td>
+                <td class="run">777</td>
+                <td class="eco">77%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>6.Mashrafi Bin Mortoja</td>
+                <td class="wi">25</td>
+                <td class="run">340</td>
+                <td class="eco">50%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>7.Mushfiqur Rahim</td>
+                <td class="wi">0</td>
+                <td class="run">649</td>
+                <td class="eco">48%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>8.Mehedi Miraj</td>
+                <td class="wi">17</td>
+                <td class="run">580</td>
+                <td class="eco">50%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>9.Taskin Ahmed</td>
+                <td class="wi">29</td>
+                <td class="run">211</td>
+                <td class="eco">45%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>10.Mustafijur Rahman</td>
+                <td class="wi">45</td>
+                <td class="run">210</td>
+                <td class="eco">66%</td>
+                <td class="ya">2018</td>
+            </tr>
+            <tr>
+                <td>11.Saifuddin</td>
+                <td class="wi">24</td>
+                <td class="run">321</td>
+                <td class="eco">45%</td>
+                <td class="ya">2018</td>
+            </tr>
+            
+        </table>
+    </div>
+    <h3><strong>24 Boolean attributes of HTML.</strong></h3>
+    <pre>
+        1*Allowfullscreen. 
+         2*Async.
+          3*Autofocus.
+           4*Autoplay.
+            5*Checked.
+             6*Controls
+              7*Default.
+               8*Defer.
+                9*Disabled.
+                 10*Formnovalidate.
+                  11*Inert.
+                   12*Ismap.
+                     *Break*
+                   13*Itemscope.
+                  14*Loop.
+                 15*Multiple.
+                16*Muted.
+               17*Nomodule.
+              18*Novalidate.
+             19*Open.
+            20*Playsinline.
+           21*Readonly.
+          22*Required.
+         23*Reversed.
+        24*Selected.
+    </pre>
+</body>
+</html>

@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: lightblue url("img_tree.gif") no-repeat fixed center; 
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    margin:20px;
+    text-align: center;
+    background-image:url(https://t3.ftcdn.net/jpg/06/25/49/30/360_F_625493094_eAdG80Hm2BzYBP7Ox3UrqYaGjmgv3Jys.jpg);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+h2{
+    margin-left:24px;
+    font-size: 28px;
+}
+h3{
+    margin:24px;
+    font-size:22px;
+}
+pre{
+    margin:24px;
+    font-size: 20px;
+}
+.container{
+    font-size: 20px;
+    width:700px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin:24px;
+    padding:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(59,89,152);
+    background-size:cover;
+    border-radius:5px;
+}
+.color, .date{
+    margin:8px;
+    padding:5px;
+    border:none;
+    border-radius:8px;
+    background-color:rgba(78, 140, 233, 0.5);
+    box-shadow: 0px 0px 10px;
+}
+.relagion, .check{
+    margin:8px;
+    box-shadow: 0px 0px 10px;
+}
+.country,.gender,.phn,.phone{
+    margin:8px;
+    background-color: rgba(78, 140, 233, 0.5);
+    padding:8px;
+    border:none;
+    border-radius:8px;
+    box-shadow: 0px 0px 10px;
+}
+.firstname, .lastname, .email, .pass,.file{
+    padding:10px;
+    width:300px;
+    border-radius:8px;
+    border:none;
+    background-color: rgba(78, 140, 233, 0.5);
+    margin: 15px;
+    box-shadow: 0px 0px 10px;
+}
+label, p, legend{
+    text-shadow: 8px 0px 8px;
+}
+button{
+    margin:20px;
+    padding:10px;
+    width:80px;
+    height:35px;
+    border:none;
+    border-radius:5px;
+    background: rgb(0,76,76);
+    color:rgb(223,227,238);
+    transition: 0.5s;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px aqua;
+}
+button:hover{
+    width:85px;
+    height:40px;
+}
+textarea{
+    background: rgba(78, 140, 233, 0.5);
+    border:none;
+    border-radius:8px;
+    margin-top:10px;
+    padding:5px;
+    box-shadow: 0px 0px 10px;
+}
+fieldset{
+    padding:5px;
+    border-radius:5px;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:20px;
+    padding:20px;
+    width:700px;
+}
+table{
+    background-color:aqua;
+}
+caption{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:6px;
+    text-shadow: 0px 5px 5px;
+}
+th{
+    font-size:27px;
+}
+td{
+    font-size:20px;
+}
+td:hover{
+    background-color:rgb(75,134,180);
+    transition:0.5s;
+}
+th:hover{
+    color:white;
+    background-color: rgb(173,203,227);
+    transition:0.8s;
+}
+option{
+    background-color: rgb(69, 128, 216);
+}
+input[type=radio]{
+    accent-color:rgb(0, 255, 64);
+}
+input[type=checkbox]{
+    accent-color:green;
+}
+.vol, input[type=range]{
+    margin-left:5px;
+    accent-color:blue;
+}
+input[placeholder]{
+    font-size: 15px;
+}
+input:active{
+    border:none;
+}
+.wi:hover{
+        background-color: darkmagenta;
+}
+.run:hover{
+    background-color:green;
+}
+.eco:hover{
+    background-color:dimgrey;
+}
+.ya:hover{
+    background-color:lime;
+}
