@@ -153,6 +153,9 @@ input[placeholder]{
 input:active{
     border:none;
 }
+::placeholder{
+    color: black;
+}
 .wi:hover{
         background-color: darkmagenta;
 }
